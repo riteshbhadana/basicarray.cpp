@@ -1,3 +1,30 @@
+more basic array question 
+#include<iostream>
+ using namespace std;
+ void update (int arr[], int n){
+    cout << endl << " inside the junction " << endl;
+    arr[0]=120;
+    for(int i =0; i<3;i++){
+    cout << arr[i] << " " ;
+ }
+ cout << endl;
+ cout << " going back to main fuction " << endl;
+ }
+ int main () {
+    int arr[3]={1,2,3};
+    cout << " printing in main function " << endl;
+    for(int i=0; i<3;i++){
+        cout<<arr[i]<< " ";
+    }
+    cout << endl;
+    return 0;
+ }
+
+___________________________________________________________________________________________________________________________
+//QUESTIONN 2 
+
+
+
 #include<iostream>
 using namespace std;
 void printArray(int arr[], int size){
